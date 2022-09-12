@@ -1,0 +1,35 @@
+/* Provide sufficient contrast against white background */
+.navbar {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: #E01A76 auto 1px;
+}
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  /* border-color: #1861ac; */
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.btn{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.input-group:not(:first-child){
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
